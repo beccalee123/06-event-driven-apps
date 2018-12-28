@@ -1,9 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Event Driven Applications
 
-### Author: Student/Group Name
+### Author: Becca
 
 ### Links and Resources
 * [repo](http://xyz.com)
