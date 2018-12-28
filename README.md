@@ -3,7 +3,7 @@
 
 ## Event Driven Applications
 
-### Author: Becca
+### Author: Becca (paired with Hannah Ingham)
 
 ### Links and Resources
 ![Build Status](https://www.travis-ci.com/beccalee123/06-event-driven-apps.svg?branch=master)
@@ -13,31 +13,27 @@
 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+- app.js
+- event.js
+- logger.js
 
-###### `foo(thing) -> string`
-Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### Usage Notes or examples
+- set environment: `npm init`
+- install fs
+- enter file name in the console to be written (example: `node app.js test.txt)
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - Defined by environment
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* run in the app using node
 
 #### Tests
 * How do you run tests?
+  - run `npm test` in console to see results of tests
 * What assertions were made?
+  - tested that console logs were being triggered by their corresponding functions
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+  - Not sure I'm clear on what else should be tested, though I'm wondering if we should be testing the read and write file functions?
