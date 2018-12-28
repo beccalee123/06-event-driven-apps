@@ -6,7 +6,7 @@ const logger = require('../event-modules/logger.js');
 describe('Logger handlers', () => {
   it('logs file saved when a real file is passed in', () => {
     const spy = jest.spyOn(console, 'log');
-    logger.fileSaved('myfile.txt');
+    logger.fileSaved('test.txt');
     expect(spy).toHaveBeenCalled();
   });
 
