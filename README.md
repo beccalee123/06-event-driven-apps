@@ -6,10 +6,11 @@
 ### Author: Becca
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+![Build Status](https://www.travis-ci.com/beccalee123/06-event-driven-apps.svg?branch=master)
+
+* [repo](https://github.com/beccalee123/06-event-driven-apps)
+* [travis](https://www.travis-ci.com/beccalee123/06-event-driven-apps)
+
 
 ### Modules
 #### `modulename.js`
